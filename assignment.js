@@ -16,8 +16,7 @@ function run_clock(endtime){
     if(t.minutes<10){
       t.minutes="0"+t.minutes;
     }
-    document.getElementById("min").innerHTML=t.minutes;
-    document.getElementById("sec").innerHTML=t.seconds;
+    document.getElementById("time").innerHTML="minutes  "+t.minutes+"  Seconds  "+t.seconds;
     if(t.total<=0){ 
         run_clock(endtime);
      }
