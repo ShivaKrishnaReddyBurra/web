@@ -166,7 +166,7 @@ body{
 .sec-3 li{
     font-family: 'genExtralight',sans-serif;
     list-style: none;
-    color: #fff;
+    color:#fff;
 }
 .sec-4{
     background: #FADA5E;
@@ -455,7 +455,7 @@ body{
         font-size: 1.5rem;
     }
 }
-
+@media (width>144opx){
     .sec-4 h1{
         font-size: 3.5rem;
     }
@@ -468,3 +468,4 @@ body{
     .sec-5 input{
         margin-left: 42%;
     }
+}
