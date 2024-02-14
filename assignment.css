@@ -45,6 +45,7 @@ body{
     color: white;
     text-align: center;
 }
+
 .sec-6 #close{
     font-size: 1rem;
     color: white;
@@ -85,6 +86,7 @@ body{
     color: white;
     padding: 0 35px 0 5px;
 }
+
 @keyframes tar{
     0%{
         transform: translateY(100%);
@@ -96,15 +98,25 @@ body{
 }
   
 @media(min-width:320px){
+    .sec-1{
+        background: #B2AC88;
+        border-radius: 30px;
+        margin-left: 2px;
+        margin-top: 0px;
+    }
 .sec-1 img{
     height: 200px;
     width: 300px;
+    margin-left: 4px;
 
 }
 .sec-1 h1{
+    text-align: center;
     font-family: 'genBold',sans-serif;
+    color: #fff;
 }
 .sec-1 p{
+    margin-left: 2px;
     font-family: 'genExtralight',sans-serif;
 }
 .sec-1 #join1{
@@ -114,36 +126,117 @@ body{
     background-color: #FADA5E; 
     border: none;
     cursor: pointer;
+    margin-left: 50px;
+}
+.sec-1 #join1:hover{
+    background-color: #808080;
+    color: #FADA5E;
+}
+.sec-2{
+    background: #808080;
+    border-radius: 30px;
 }
 .sec-2 h1{
-    font-family: 'genBOld',sans-serif;   
+    text-align: center;
+    font-family: 'genBOld',sans-serif;
+    color: #fff;   
 }
 .sec-2 li{
     font-family: 'genExtralight',sans-serif;
     list-style: none;
+    color: #fff;
+    margin: 1px;
 }
 .sec-2 img{
-    height: 200px;
-    width: 300px;
+    height: 150px;
+    width: 250px;
+    margin-left: 35px;
+
 }
 .sec-3 h1{
+    color: #fff;
+    text-align: center;
     font-family: 'genBold',sans-serif;
+}
+.sec-3 ul{
+    background: #808080;
+    border-radius:20px ;
 }
 
 .sec-3 li{
     font-family: 'genExtralight',sans-serif;
     list-style: none;
+    color: #fff;
+}
+.sec-4{
+    background: #FADA5E;
+    border-radius: 30px;
+    height: 200px;
+}
+.sec-4 h1{
+    font-family: 'genBold',sans-serif;
+    text-align: center;
+    color: #fff;
+}
+.sec-4 #time{
+    background: #B2AC88;
+    border-radius: 10px;
+    height: 25px;
+    width: 300px;
+    text-align: center;
+    font-weight: 800;
+    color: #fff;
+    margin-left: 10px;
 }
 .sec-4 input{
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    background-color: #808080; 
+    border: none;
+    color: #FADA5E;
+    cursor: pointer;
+    margin-left: 65px;
+    margin-top: 10px;
+
+}
+.sec-4 input:hover{
+    background: #FADA5E;
+    color: #808080;
+}
+.sec-5{
+    background: #B2AC88;
+    height: 260px;
+    border-radius: 30px;
+}
+.sec-5 h1{
+    font-family: 'genBold',sans-serif;
+    text-align: center;
+    color: #fff;
+}
+.sec-5 P{
+    font-family: 'genExtralight',sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.sec-5 input{
     height: 40px;
     width: 200px;
     text-align: center;
     background-color: #FADA5E; 
     border: none;
     cursor: pointer;
+    margin-left: 55px;
+
+}
+.sec-5 input:hover{
+    background: #808080;
+    color: #FADA5E;
 }
 .sec-6 .Log{
-    width: 300px;
+    width: 315px;
+    margin-left: 2px;
 }
 
 }
@@ -151,6 +244,22 @@ body{
     .sec-1 img{
         height: 250px;
         width: 350px;
+    }
+    .sec-1 #join1{
+        margin-left: 24%;
+    }
+    .sec-2 img{
+        margin-left: 20%;
+    }
+    .sec-4 #time{
+        margin-left: 10%;
+    }
+    .sec-4 input{
+        margin-top: 10px;
+        margin-left: 23%;
+    }
+    .sec-5 input{
+        margin-left: 23%;
     }
     .sec-6 .Log{
         width: 370px;
@@ -162,8 +271,15 @@ body{
         height: 300px;
         width: 400px;
     }
+    .sec-4 #time{
+        font-size: 1.2rem;
+        height: 30;
+    }
+    .sec-5 input{
+        margin-left: 26%;
+    }
     .sec-6 .Log{
-        width: 400px;
+        width: 420px;
     
     }
 }
@@ -189,7 +305,10 @@ body{
     .sec-1 #join1{
         position: relative;
         top: -220px;
-        left: 150px;
+        left: 100px;
+        height: 80px;
+        width: 250px;
+        font-size: 1.5rem;
     }
     .sec-2{
         height: 580px;
@@ -208,8 +327,29 @@ body{
         margin-left: 73%;
         position: relative;
         top:-400px;
-
-    }    
+    }  
+    .sec-4 h1{
+        font-size: 2.5rem;
+    }  
+    .sec-4 #time{
+        height: 40px;
+        font-size: 1.5rem;
+        text-align: center;
+        padding-top: 10px;
+        margin-left: 30%;
+    }
+    .sec-4 input{
+        margin-left: 36%;
+    }
+    .sec-5 h1{
+        font-size: 2.5rem;
+    }
+    .sec-5 p{
+        font-size: 1.5rem;
+    }
+    .sec-5 input{
+        margin-left: 37%;
+    }
 }
 @media (min-width:1024px){
     .sec-1 h1{
@@ -252,6 +392,30 @@ body{
     .sec-3 li{
         font-size: 1.2rem;
     }
+    .sec-3 h1{
+        font-size: 3rem;
+    }
+    .sec-4{
+        height: 250px;
+    }
+    .sec-4 h1{
+        font-size: 3rem;
+    }
+    .sec-4 #time{
+        height: 65px;
+        font-size: 1.8rem;
+        padding-top:20px ;
+        margin-left: 35%;
+    }
+    .sec-4 input{
+        margin-left: 40%;
+    }
+    .sec-5 h1{
+        font-size: 3rem;
+    }
+    .sec-5 input{
+        margin-left: 40%;
+    }
 }
 @media (min-width:1440px){
     .sec-1 h1{
@@ -291,3 +455,16 @@ body{
         font-size: 1.5rem;
     }
 }
+
+    .sec-4 h1{
+        font-size: 3.5rem;
+    }
+    .sec-4 #time{
+        margin-left: 36%;
+    }
+    .sec-4 input{
+        margin-left: 40%;
+    }
+    .sec-5 input{
+        margin-left: 42%;
+    }
